@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="jjboa_dms" version="3">
+  <DEPS>
+    <ID name="jjboa_dms" mc="DiagramSet" uid="59a0fe9d-516c-43c1-801d-7b67d2c42627"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="jjboa_dms" mc="DiagramSet" uid="59a0fe9d-516c-43c1-801d-7b67d2c42627"/>
+    <PID name="jjboa_dms" mc="Project" uid="c5749f35-ff8b-4d92-8b8a-96a687be2766"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[jjboa_dms]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

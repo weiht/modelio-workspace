@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="jjboa_dms" version="3">
+  <DEPS>
+    <ID name="jjboa_dms" mc="Package" uid="778b9151-cacc-4d57-a392-ca74d7f7fc5e"/>
+    <COMPID name="overview diagram" mc="ClassDiagram" uid="30915ddc-f0dc-4359-bc45-900d4ed12dbc"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="jjboa_dms" mc="Package" uid="778b9151-cacc-4d57-a392-ca74d7f7fc5e"/>
+    <PID name="jjboa_dms" mc="Project" uid="c5749f35-ff8b-4d92-8b8a-96a687be2766"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[jjboa_dms]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Product">
+        <COMPID name="overview diagram" mc="ClassDiagram" uid="30915ddc-f0dc-4359-bc45-900d4ed12dbc"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

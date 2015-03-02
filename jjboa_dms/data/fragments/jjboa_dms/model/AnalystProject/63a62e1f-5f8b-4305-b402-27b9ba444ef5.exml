@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="jjboa_dms" version="3">
+  <DEPS>
+    <ID name="jjboa_dms" mc="AnalystProject" uid="63a62e1f-5f8b-4305-b402-27b9ba444ef5"/>
+    <COMPID name="jjboa_dms" mc="PropertyContainer" uid="02c9ea0b-5d87-45fb-861c-1a60fdafcd18"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="jjboa_dms" mc="AnalystProject" uid="63a62e1f-5f8b-4305-b402-27b9ba444ef5"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[jjboa_dms]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="PropertyRoot">
+        <COMPID name="jjboa_dms" mc="PropertyContainer" uid="02c9ea0b-5d87-45fb-861c-1a60fdafcd18"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
