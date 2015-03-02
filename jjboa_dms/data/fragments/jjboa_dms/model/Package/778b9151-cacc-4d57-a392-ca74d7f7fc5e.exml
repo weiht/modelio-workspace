@@ -2,7 +2,15 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="jjboa_dms" version="3">
   <DEPS>
     <ID name="jjboa_dms" mc="Package" uid="778b9151-cacc-4d57-a392-ca74d7f7fc5e"/>
+    <COMPID name="Use Case diagram" mc="UseCaseDiagram" uid="922ea2cc-1914-4fe0-b084-999246b31286"/>
     <COMPID name="overview diagram" mc="ClassDiagram" uid="30915ddc-f0dc-4359-bc45-900d4ed12dbc"/>
+    <COMPID name="内部人员" mc="Actor" uid="0f6e2407-a538-4a75-86b6-0615c98b88ee"/>
+    <COMPID name="出库刻盘" mc="UseCase" uid="0f0639eb-fcf2-4637-ad00-ccf964380715"/>
+    <COMPID name="外发人员" mc="Actor" uid="8176d177-9b79-4a1e-9888-04c5f3e4aeeb"/>
+    <COMPID name="收文人员" mc="Actor" uid="45dd8472-212d-4f6a-92ee-c6d251b0980a"/>
+    <COMPID name="收文扫描入库" mc="UseCase" uid="aef470bd-a23a-4a53-b655-98589897947f"/>
+    <COMPID name="查阅文档" mc="UseCase" uid="9ee8c8a5-cdd3-4601-98db-4378aa43bd7b"/>
+    <COMPID name="标识管理员" mc="Actor" uid="080355b4-eb70-4484-a661-65898226bfb9"/>
   </DEPS>
   <OBJECT>
     <ID name="jjboa_dms" mc="Package" uid="778b9151-cacc-4d57-a392-ca74d7f7fc5e"/>
@@ -17,8 +25,18 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="外发人员" mc="Actor" uid="8176d177-9b79-4a1e-9888-04c5f3e4aeeb"/>
+        <COMPID name="收文人员" mc="Actor" uid="45dd8472-212d-4f6a-92ee-c6d251b0980a"/>
+        <COMPID name="标识管理员" mc="Actor" uid="080355b4-eb70-4484-a661-65898226bfb9"/>
+        <COMPID name="收文扫描入库" mc="UseCase" uid="aef470bd-a23a-4a53-b655-98589897947f"/>
+        <COMPID name="出库刻盘" mc="UseCase" uid="0f0639eb-fcf2-4637-ad00-ccf964380715"/>
+        <COMPID name="内部人员" mc="Actor" uid="0f6e2407-a538-4a75-86b6-0615c98b88ee"/>
+        <COMPID name="查阅文档" mc="UseCase" uid="9ee8c8a5-cdd3-4601-98db-4378aa43bd7b"/>
+      </COMP>
       <COMP relation="Product">
         <COMPID name="overview diagram" mc="ClassDiagram" uid="30915ddc-f0dc-4359-bc45-900d4ed12dbc"/>
+        <COMPID name="Use Case diagram" mc="UseCaseDiagram" uid="922ea2cc-1914-4fe0-b084-999246b31286"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

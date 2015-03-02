@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="收文扫描" version="3">
+  <DEPS>
+    <ID name="收文扫描" mc="Interaction" uid="da226c5a-2ebf-4177-9174-f0ac39285a97"/>
+    <COMPID name="收文扫描序列图" mc="SequenceDiagram" uid="e11b7d11-0341-46e2-a674-840aa4ecd406"/>
+    <EXTID name="收文人员" mc="Actor" uid="45dd8472-212d-4f6a-92ee-c6d251b0980a"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="收文扫描" mc="Interaction" uid="da226c5a-2ebf-4177-9174-f0ac39285a97"/>
+    <PID name="收文扫描入库" mc="UseCase" uid="aef470bd-a23a-4a53-b655-98589897947f"/>
+    <ATTRIBUTES>
+      <ATT name="IsReentrant">false</ATT>
+      <ATT name="Name"><![CDATA[收文扫描]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedLine">
+        <OBJECT>
+          <ID name="r" mc="Lifeline" uid="e13851ef-ec12-4a01-81e2-0fddb3a0becd"/>
+          <PID name="收文扫描" mc="Interaction" uid="da226c5a-2ebf-4177-9174-f0ac39285a97"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[r]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Represented">
+              <REFOBJ>
+                <ID name="r" mc="BindableInstance" uid="3832fbbc-9dac-458c-a15a-9bf6734c49f0"/>
+                <PID name="收文扫描" mc="Interaction" uid="da226c5a-2ebf-4177-9174-f0ac39285a97"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedCollaboration">
+        <OBJECT>
+          <ID name="locals" mc="Collaboration" uid="09dcaafe-ba0d-4177-b0ae-fa9a3980e509"/>
+          <PID name="收文扫描" mc="Interaction" uid="da226c5a-2ebf-4177-9174-f0ac39285a97"/>
+          <ATTRIBUTES>
+            <ATT name="IsConcurrent">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[locals]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Declared">
+              <OBJECT>
+                <ID name="r" mc="BindableInstance" uid="3832fbbc-9dac-458c-a15a-9bf6734c49f0"/>
+                <PID name="收文扫描" mc="Interaction" uid="da226c5a-2ebf-4177-9174-f0ac39285a97"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[r]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="收文人员" mc="Actor" uid="45dd8472-212d-4f6a-92ee-c6d251b0980a"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="收文扫描序列图" mc="SequenceDiagram" uid="e11b7d11-0341-46e2-a674-840aa4ecd406"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

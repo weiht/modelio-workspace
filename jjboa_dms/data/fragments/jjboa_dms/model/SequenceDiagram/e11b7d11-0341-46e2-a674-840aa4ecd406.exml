@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="收文扫描序列图" version="3">
+  <DEPS>
+    <ID name="收文扫描序列图" mc="SequenceDiagram" uid="e11b7d11-0341-46e2-a674-840aa4ecd406"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="收文扫描序列图" mc="SequenceDiagram" uid="e11b7d11-0341-46e2-a674-840aa4ecd406"/>
+    <PID name="收文扫描" mc="Interaction" uid="da226c5a-2ebf-4177-9174-f0ac39285a97"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">28</ATT>
+      <ATT name="UiData"><![CDATA[eJztWM1y2jAQfhWP7xg7OITOEDIB0jQTmmSStjM9McJawIkspbIo+AnannLptIc+Qu899NC3Cc9RGWMKJpFN+EkP3Gz9fLtafd+upPLBwCPaR+C+y+i+bhmmrh1Uyueta3CE5mLZpGsiuIV9nfGO4TEMxGUGdlGHI88A7ArGDR8+9IA6YAABD6jwJy3xwGPvatxSj1p0zUPXjDcnpk29Ur7g7Ba4CDSKPGmRoID1RB0JJPveIdKDsSu0R4ier5Tz8YS5qVciIKDPLGRHtRA/HO8bDuNgRHMz+FdDvoMw4NjY0UBcQjujlTMJMZ6pwUDUWyfSx9Fn+IGhjXpEJBaZj5ajWjgHggRg6UciZq/DJu1j2CLDM7sZGlhWaw9bVs4s2FbOLsJODhX37FzJNhGywcG2WVQHnCBfnFLWpw3UApKwfSW4Szt6Zfj11/Dbp+GXn8O7u/vfd/efv9//+FPOj4YqF8UInNAa826Z7wq5HY/gZ4CqdV2COYQIDdcXMwwpPInqxG3LgRQkxxvjz4XJPeWEvZwTsQsXBDmjvhqjvuDIpSKLV4NEZE+ogA7wCXFKppoGQcr8lOl9F4tumgt7aowuuJ2uSAGxzRRP4oCqVBTHWsqnUNq1oJ0Dx9rJ2ci0ciVLashsY9wqILMlFbS4lB/IYbtrz2FhAouy5ZpSzzJBe0rO4f9PfikuJ+0uyI3iU2nm1ahBClxIeYfkXqKkzqls4fq6l5WbEmoQLE3Q3S1B57EiiixJ09JaaLr5A9+LzRIyWZa2hMyWMf0u6zddZw6iyqQNRCdhELwH6tWNkG4g6DOOU8DaiPhpaAI5N01fAAe2GtfIA0HPADUh0vStzFSKNBalwzyPUWNkOBo17pLyrEdXjJeSgs+lUEt5uVzpeWarzvWqM4ugnkueWX1bVp/5qJSmSVf5EJFeX1sMB1PVtSp/V3ryS578M8hYeXHeHv02ouWQFk85+ClIu1BXwk7DpTe+wkhieLVT56gvF9JAgeTiLL3UTyKxQHAEIJUSQoQFbhpxM7VtsVnP9VbnJtNvzKH6sdE4fH902awe1k6PL8/fntVXTalHUaZ36x9xpmmgfPzY0mANNHhzfrGxlPIXLLqbXQ==]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[收文扫描序列图]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

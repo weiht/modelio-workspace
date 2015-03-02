@@ -1,0 +1,1190 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="刻盘" version="3">
+  <DEPS>
+    <ID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+    <COMPID name="刻盘序列图" mc="SequenceDiagram" uid="706f6202-500f-415e-a06c-af9ad7967906"/>
+    <EXTID name="外发人员" mc="Actor" uid="8176d177-9b79-4a1e-9888-04c5f3e4aeeb"/>
+    <EXTID name="标识管理员" mc="Actor" uid="080355b4-eb70-4484-a661-65898226bfb9"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+    <PID name="出库刻盘" mc="UseCase" uid="0f0639eb-fcf2-4637-ad00-ccf964380715"/>
+    <ATTRIBUTES>
+      <ATT name="IsReentrant">false</ATT>
+      <ATT name="Name"><![CDATA[刻盘]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Fragment">
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="8c9efd6f-6206-4f6d-ac97-53811eca90dc"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">88</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="填写申请表" mc="Message" uid="2793f29d-8c55-427f-83f7-6cc727f52155"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">SyncCall</ATT>
+                  <ATT name="Name"><![CDATA[填写申请表]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="5efd4476-d4d0-4f3f-8e53-381ede0ca361"/>
+                      <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="r" mc="Lifeline" uid="5b25e981-53a9-4d1f-8123-e59d6c8d6c00"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="5efd4476-d4d0-4f3f-8e53-381ede0ca361"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">88</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="ExecutionSpecification" uid="8116b586-b5df-40b5-b6d2-0cbf46db3644"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="刻录申请" mc="Lifeline" uid="8da2e886-4a4c-4265-9495-d1028ab8dcad"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="3b15a106-0a91-4831-9683-14964678e63b"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">108</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="" mc="Message" uid="2031e2e5-d71c-41d3-98a5-033b9f03061a"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ReturnMessage</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="1606fecf-45a3-4189-95b9-95d7feb57527"/>
+                      <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="刻录申请" mc="Lifeline" uid="8da2e886-4a4c-4265-9495-d1028ab8dcad"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionSpecification" uid="8116b586-b5df-40b5-b6d2-0cbf46db3644"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">88</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="ExecutionOccurenceSpecification" uid="3b15a106-0a91-4831-9683-14964678e63b"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="刻录申请" mc="Lifeline" uid="8da2e886-4a4c-4265-9495-d1028ab8dcad"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="1606fecf-45a3-4189-95b9-95d7feb57527"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">128</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="r" mc="Lifeline" uid="5b25e981-53a9-4d1f-8123-e59d6c8d6c00"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="0b8ebaf8-732d-426d-845b-f011c92a15b9"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">64</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="ExecutionSpecification" uid="faa6e645-24b2-42dc-b5f8-fb7e2cdb4474"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="r" mc="Lifeline" uid="5b25e981-53a9-4d1f-8123-e59d6c8d6c00"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="b1e8dfa0-05e6-454f-ac1d-89abe1c802f7"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">681</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="r" mc="Lifeline" uid="5b25e981-53a9-4d1f-8123-e59d6c8d6c00"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionSpecification" uid="faa6e645-24b2-42dc-b5f8-fb7e2cdb4474"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">64</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="ExecutionOccurenceSpecification" uid="b1e8dfa0-05e6-454f-ac1d-89abe1c802f7"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="r" mc="Lifeline" uid="5b25e981-53a9-4d1f-8123-e59d6c8d6c00"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="bc32f32d-0130-4a56-8f93-56bdd9e7d7b1"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">167</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="申领光盘" mc="Message" uid="14233bf7-8d25-4215-92ce-55da86448d14"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">SyncCall</ATT>
+                  <ATT name="Name"><![CDATA[申领光盘]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="be9272db-362c-4033-b1c3-f684019ad397"/>
+                      <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="r" mc="Lifeline" uid="5b25e981-53a9-4d1f-8123-e59d6c8d6c00"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="be9272db-362c-4033-b1c3-f684019ad397"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">167</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="ExecutionSpecification" uid="a7277518-2523-40aa-a939-c48bd16774c9"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="r1" mc="Lifeline" uid="f2ed6178-3d7f-482b-bc75-dbbd7746ed9c"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="65cb4390-ab8c-49ef-a8ff-d0a345a5dbcc"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">302</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="" mc="Message" uid="810ffbc2-0c4c-49f4-ab1a-4a2493daa683"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ReturnMessage</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="a0d23a99-0277-403e-a2e4-16a6baaabebd"/>
+                      <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="r1" mc="Lifeline" uid="f2ed6178-3d7f-482b-bc75-dbbd7746ed9c"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionSpecification" uid="a7277518-2523-40aa-a939-c48bd16774c9"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">167</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="ExecutionOccurenceSpecification" uid="65cb4390-ab8c-49ef-a8ff-d0a345a5dbcc"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="r1" mc="Lifeline" uid="f2ed6178-3d7f-482b-bc75-dbbd7746ed9c"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="a0d23a99-0277-403e-a2e4-16a6baaabebd"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">322</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="r" mc="Lifeline" uid="5b25e981-53a9-4d1f-8123-e59d6c8d6c00"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="9bfbae7b-7a95-4b63-8eb9-99986b2851de"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">188</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="打印条码" mc="Message" uid="a0ac40d3-db19-4de9-ac06-5c682589f8e0"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">SyncCall</ATT>
+                  <ATT name="Name"><![CDATA[打印条码]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="ad4f3466-b5cd-4cef-aa6b-91bc7df7e8d3"/>
+                      <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="r1" mc="Lifeline" uid="f2ed6178-3d7f-482b-bc75-dbbd7746ed9c"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="ad4f3466-b5cd-4cef-aa6b-91bc7df7e8d3"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">188</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="ExecutionSpecification" uid="bc60a7d5-b7c7-4c28-a5d2-5aae0d992212"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="条码管理器" mc="Lifeline" uid="44b3efe7-f005-4b9a-a365-8fd82c35a259"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="bf077c0e-60b6-4e0f-a74a-fa14a9a1a523"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">264</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="" mc="Message" uid="f1c6cdbb-762d-4bbe-894d-243474cc0f64"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ReturnMessage</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="9e61b129-ccb6-4ffa-b211-bf5d1d7edab5"/>
+                      <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="条码管理器" mc="Lifeline" uid="44b3efe7-f005-4b9a-a365-8fd82c35a259"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionSpecification" uid="bc60a7d5-b7c7-4c28-a5d2-5aae0d992212"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">188</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="ExecutionOccurenceSpecification" uid="bf077c0e-60b6-4e0f-a74a-fa14a9a1a523"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="条码管理器" mc="Lifeline" uid="44b3efe7-f005-4b9a-a365-8fd82c35a259"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="9e61b129-ccb6-4ffa-b211-bf5d1d7edab5"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">284</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="r1" mc="Lifeline" uid="f2ed6178-3d7f-482b-bc75-dbbd7746ed9c"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="39bcce82-3b7b-454d-baf8-e49c85509eae"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">359</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="扫描条码" mc="Message" uid="6d1fdf40-413d-4502-973b-22248965b2aa"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">SyncCall</ATT>
+                  <ATT name="Name"><![CDATA[扫描条码]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="24de76fe-a5ac-4b36-aafe-3b8998f7d0d3"/>
+                      <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="r" mc="Lifeline" uid="5b25e981-53a9-4d1f-8123-e59d6c8d6c00"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="24de76fe-a5ac-4b36-aafe-3b8998f7d0d3"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">359</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="ExecutionSpecification" uid="4683f5de-af7c-4f2a-ae4b-e3c4125795a8"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="条码识别器" mc="Lifeline" uid="5a3877fe-e343-4886-b23e-5c159fd4e6cd"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="5ad57b9c-a91a-4d9b-8b4c-b5e33ef4e428"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">596</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="" mc="Message" uid="3f93fbde-7d7d-4e70-bec6-a3dc2ed8cef4"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ReturnMessage</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="48338e24-6e7d-4596-b74b-9821b3425512"/>
+                      <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="条码识别器" mc="Lifeline" uid="5a3877fe-e343-4886-b23e-5c159fd4e6cd"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionSpecification" uid="4683f5de-af7c-4f2a-ae4b-e3c4125795a8"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">359</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="ExecutionOccurenceSpecification" uid="5ad57b9c-a91a-4d9b-8b4c-b5e33ef4e428"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="条码识别器" mc="Lifeline" uid="5a3877fe-e343-4886-b23e-5c159fd4e6cd"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="48338e24-6e7d-4596-b74b-9821b3425512"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">616</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="r" mc="Lifeline" uid="5b25e981-53a9-4d1f-8123-e59d6c8d6c00"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="768b96d2-44ce-4c58-9406-acd7609cb94d"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">372</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="获取文件" mc="Message" uid="1dad3330-6c61-4f21-92e3-46c135c53f05"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">SyncCall</ATT>
+                  <ATT name="Name"><![CDATA[获取文件]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="a18fc9ce-1680-4ecc-b039-139591f5bcd1"/>
+                      <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="条码识别器" mc="Lifeline" uid="5a3877fe-e343-4886-b23e-5c159fd4e6cd"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="a18fc9ce-1680-4ecc-b039-139591f5bcd1"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">381</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="ExecutionSpecification" uid="8f8d30df-c3b6-42cb-a43e-ceb3fc50478a"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="刻录申请" mc="Lifeline" uid="8da2e886-4a4c-4265-9495-d1028ab8dcad"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="67b7406e-da84-4194-9f54-e851463166aa"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">427</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="" mc="Message" uid="dfa47402-f497-42d7-83ac-c1dc2bec1569"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ReturnMessage</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="92f611d9-57c6-4f8d-8148-9d2a0bb2c77e"/>
+                      <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="刻录申请" mc="Lifeline" uid="8da2e886-4a4c-4265-9495-d1028ab8dcad"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionSpecification" uid="8f8d30df-c3b6-42cb-a43e-ceb3fc50478a"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">381</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="ExecutionOccurenceSpecification" uid="67b7406e-da84-4194-9f54-e851463166aa"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="刻录申请" mc="Lifeline" uid="8da2e886-4a4c-4265-9495-d1028ab8dcad"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="92f611d9-57c6-4f8d-8148-9d2a0bb2c77e"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">447</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="条码识别器" mc="Lifeline" uid="5a3877fe-e343-4886-b23e-5c159fd4e6cd"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="e5037c97-25d9-474f-a79f-95914eab891e"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">210</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="生成条码" mc="Message" uid="760d4a2b-4d48-4f30-9544-89d49de5848d"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">SyncCall</ATT>
+                  <ATT name="Name"><![CDATA[生成条码]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="700b26ae-6706-407e-a79b-25da123e6251"/>
+                      <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="条码管理器" mc="Lifeline" uid="44b3efe7-f005-4b9a-a365-8fd82c35a259"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="700b26ae-6706-407e-a79b-25da123e6251"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">210</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="ExecutionSpecification" uid="f547d52d-c1a0-470c-ac0a-ba3a6d882e9b"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="刻录申请" mc="Lifeline" uid="8da2e886-4a4c-4265-9495-d1028ab8dcad"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="5c7f0ed6-978d-46c9-a4ed-88f0394fbdf0"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">230</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="" mc="Message" uid="756b74b4-4632-4fc1-9bcf-e4f3968a419b"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ReturnMessage</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="b8292a6e-a06f-43e9-a535-5614af1e8818"/>
+                      <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="刻录申请" mc="Lifeline" uid="8da2e886-4a4c-4265-9495-d1028ab8dcad"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionSpecification" uid="f547d52d-c1a0-470c-ac0a-ba3a6d882e9b"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">210</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="ExecutionOccurenceSpecification" uid="5c7f0ed6-978d-46c9-a4ed-88f0394fbdf0"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="刻录申请" mc="Lifeline" uid="8da2e886-4a4c-4265-9495-d1028ab8dcad"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="b8292a6e-a06f-43e9-a535-5614af1e8818"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">250</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="条码管理器" mc="Lifeline" uid="44b3efe7-f005-4b9a-a365-8fd82c35a259"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="425e2176-5fe3-4ce0-ad18-bd10cb80976d"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">502</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="刻录" mc="Message" uid="f55b2c57-6e08-477e-a559-ad79c5c233ec"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">SyncCall</ATT>
+                  <ATT name="Name"><![CDATA[刻录]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="52c12954-54c9-4b57-bc4a-04088c137dee"/>
+                      <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="条码识别器" mc="Lifeline" uid="5a3877fe-e343-4886-b23e-5c159fd4e6cd"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="52c12954-54c9-4b57-bc4a-04088c137dee"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">502</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="ExecutionSpecification" uid="6b10a618-0aab-4e08-a249-8257bc1b1d74"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="刻录服务" mc="Lifeline" uid="e2e7b03e-79f2-4b7c-9050-d1b59c1f03cb"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="91ef36a0-3709-40eb-a14f-d91389d8e3fc"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">522</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="" mc="Message" uid="965d5021-551f-4d25-8671-a9a77ad3b91e"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ReturnMessage</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="f7dc3da8-0d38-47da-9895-144970785229"/>
+                      <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="刻录服务" mc="Lifeline" uid="e2e7b03e-79f2-4b7c-9050-d1b59c1f03cb"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionSpecification" uid="6b10a618-0aab-4e08-a249-8257bc1b1d74"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">502</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="ExecutionOccurenceSpecification" uid="91ef36a0-3709-40eb-a14f-d91389d8e3fc"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="刻录服务" mc="Lifeline" uid="e2e7b03e-79f2-4b7c-9050-d1b59c1f03cb"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="f7dc3da8-0d38-47da-9895-144970785229"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">542</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="条码识别器" mc="Lifeline" uid="5a3877fe-e343-4886-b23e-5c159fd4e6cd"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedLine">
+        <OBJECT>
+          <ID name="r" mc="Lifeline" uid="5b25e981-53a9-4d1f-8123-e59d6c8d6c00"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[r]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Represented">
+              <REFOBJ>
+                <ID name="r" mc="BindableInstance" uid="b671d0b8-0230-40ca-93cd-8fbf7a588eea"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="刻录申请" mc="Lifeline" uid="8da2e886-4a4c-4265-9495-d1028ab8dcad"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[刻录申请]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="r1" mc="Lifeline" uid="f2ed6178-3d7f-482b-bc75-dbbd7746ed9c"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[r1]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Represented">
+              <REFOBJ>
+                <ID name="r1" mc="BindableInstance" uid="9fede66f-8af8-4bd9-85a3-c0d7f0cd7b96"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="条码管理器" mc="Lifeline" uid="44b3efe7-f005-4b9a-a365-8fd82c35a259"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[条码管理器]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="条码识别器" mc="Lifeline" uid="5a3877fe-e343-4886-b23e-5c159fd4e6cd"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[条码识别器]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="刻录服务" mc="Lifeline" uid="e2e7b03e-79f2-4b7c-9050-d1b59c1f03cb"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[刻录服务]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedCollaboration">
+        <OBJECT>
+          <ID name="locals" mc="Collaboration" uid="c4fd33b5-a914-42e0-81e2-75a70a2a98bf"/>
+          <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+          <ATTRIBUTES>
+            <ATT name="IsConcurrent">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[locals]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Declared">
+              <OBJECT>
+                <ID name="r" mc="BindableInstance" uid="b671d0b8-0230-40ca-93cd-8fbf7a588eea"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[r]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="外发人员" mc="Actor" uid="8176d177-9b79-4a1e-9888-04c5f3e4aeeb"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="r1" mc="BindableInstance" uid="9fede66f-8af8-4bd9-85a3-c0d7f0cd7b96"/>
+                <PID name="刻盘" mc="Interaction" uid="4f8e3fe9-ce7d-4f1e-bb38-65312bb5f6e6"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[r1]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="标识管理员" mc="Actor" uid="080355b4-eb70-4484-a661-65898226bfb9"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="刻盘序列图" mc="SequenceDiagram" uid="706f6202-500f-415e-a06c-af9ad7967906"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
