@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="publishment" version="3">
+  <DEPS>
+    <ID name="publishment" mc="Package" uid="81250cfe-c031-4f6f-bfc9-578a68790ee8"/>
+    <COMPID name="publishment Use Case" mc="UseCaseDiagram" uid="e620d031-8d3e-4ae9-b3b4-2bfaf961f78f"/>
+    <COMPID name="发布人" mc="Actor" uid="d7ab4302-c7f1-48b3-8105-64284210cc11"/>
+    <COMPID name="发布内容" mc="UseCase" uid="1b2cf4ff-c0b9-460e-93d4-49c33c58f915"/>
+    <COMPID name="审核内容" mc="UseCase" uid="36d14603-19f3-4f06-9756-d01ddb79d63b"/>
+    <COMPID name="撤销内容" mc="UseCase" uid="ab6d6b1b-6d1b-4b5d-814a-0474efef4f4b"/>
+    <COMPID name="查找内容" mc="UseCase" uid="dd5d1bad-192e-4a44-8c82-f1e9da294821"/>
+    <COMPID name="管理公有分类" mc="UseCase" uid="94ad2f3a-ae53-4e4d-95da-d90075f9b550"/>
+    <COMPID name="管理员" mc="Actor" uid="498fe65e-dec9-423e-9ba1-9c5e63a5b00c"/>
+    <COMPID name="管理私有分类" mc="UseCase" uid="1eddb096-5fe3-48d9-ade3-23accc0729ed"/>
+    <COMPID name="评论内容" mc="UseCase" uid="e988f27b-144c-4b0f-bcea-ac3b5bca155d"/>
+    <COMPID name="读者" mc="Actor" uid="772e7738-c0b3-4e1a-ba19-895370943949"/>
+    <COMPID name="阅读内容" mc="UseCase" uid="2fde5920-c5d4-4fa6-919d-ff798fa88076"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="publishment" mc="Package" uid="81250cfe-c031-4f6f-bfc9-578a68790ee8"/>
+    <PID name="yczy_update" mc="Package" uid="5f1d74d3-4155-4571-a7c8-b744114b2ecb"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[publishment]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="发布人" mc="Actor" uid="d7ab4302-c7f1-48b3-8105-64284210cc11"/>
+        <COMPID name="读者" mc="Actor" uid="772e7738-c0b3-4e1a-ba19-895370943949"/>
+        <COMPID name="管理员" mc="Actor" uid="498fe65e-dec9-423e-9ba1-9c5e63a5b00c"/>
+        <COMPID name="管理私有分类" mc="UseCase" uid="1eddb096-5fe3-48d9-ade3-23accc0729ed"/>
+        <COMPID name="管理公有分类" mc="UseCase" uid="94ad2f3a-ae53-4e4d-95da-d90075f9b550"/>
+        <COMPID name="发布内容" mc="UseCase" uid="1b2cf4ff-c0b9-460e-93d4-49c33c58f915"/>
+        <COMPID name="撤销内容" mc="UseCase" uid="ab6d6b1b-6d1b-4b5d-814a-0474efef4f4b"/>
+        <COMPID name="查找内容" mc="UseCase" uid="dd5d1bad-192e-4a44-8c82-f1e9da294821"/>
+        <COMPID name="阅读内容" mc="UseCase" uid="2fde5920-c5d4-4fa6-919d-ff798fa88076"/>
+        <COMPID name="评论内容" mc="UseCase" uid="e988f27b-144c-4b0f-bcea-ac3b5bca155d"/>
+        <COMPID name="审核内容" mc="UseCase" uid="36d14603-19f3-4f06-9756-d01ddb79d63b"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="publishment Use Case" mc="UseCaseDiagram" uid="e620d031-8d3e-4ae9-b3b4-2bfaf961f78f"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

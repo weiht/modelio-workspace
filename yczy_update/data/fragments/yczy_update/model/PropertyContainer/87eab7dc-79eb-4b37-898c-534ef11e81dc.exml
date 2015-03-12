@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="yczy_update" version="3">
+  <DEPS>
+    <ID name="yczy_update" mc="PropertyContainer" uid="87eab7dc-79eb-4b37-898c-534ef11e81dc"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="yczy_update" mc="PropertyContainer" uid="87eab7dc-79eb-4b37-898c-534ef11e81dc"/>
+    <PID name="yczy_update" mc="AnalystProject" uid="3f18bdd7-5bad-4067-8c9f-f75b14d3b7c4"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[yczy_update]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

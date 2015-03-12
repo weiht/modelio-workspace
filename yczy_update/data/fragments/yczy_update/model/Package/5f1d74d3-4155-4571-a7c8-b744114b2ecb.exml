@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="yczy_update" version="3">
+  <DEPS>
+    <ID name="yczy_update" mc="Package" uid="5f1d74d3-4155-4571-a7c8-b744114b2ecb"/>
+    <COMPID name="overview diagram" mc="ClassDiagram" uid="f738b911-934a-434c-814b-f85710b04881"/>
+    <COMPID name="publishment" mc="Package" uid="81250cfe-c031-4f6f-bfc9-578a68790ee8"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="yczy_update" mc="Package" uid="5f1d74d3-4155-4571-a7c8-b744114b2ecb"/>
+    <PID name="yczy_update" mc="Project" uid="e6cb68db-ce0d-4fd8-9354-999348a13c7a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[yczy_update]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="publishment" mc="Package" uid="81250cfe-c031-4f6f-bfc9-578a68790ee8"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="overview diagram" mc="ClassDiagram" uid="f738b911-934a-434c-814b-f85710b04881"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

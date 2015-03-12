@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="yczy_update" version="3">
+  <DEPS>
+    <ID name="yczy_update" mc="Project" uid="e6cb68db-ce0d-4fd8-9354-999348a13c7a"/>
+    <COMPID name="yczy_update" mc="DiagramSet" uid="d345b9b0-9e59-48a6-b351-71cf29b9954e"/>
+    <COMPID name="yczy_update" mc="Package" uid="5f1d74d3-4155-4571-a7c8-b744114b2ecb"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="yczy_update" mc="Project" uid="e6cb68db-ce0d-4fd8-9354-999348a13c7a"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[yczy_update]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DiagramRoot">
+        <COMPID name="yczy_update" mc="DiagramSet" uid="d345b9b0-9e59-48a6-b351-71cf29b9954e"/>
+      </COMP>
+      <COMP relation="Model">
+        <COMPID name="yczy_update" mc="Package" uid="5f1d74d3-4155-4571-a7c8-b744114b2ecb"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

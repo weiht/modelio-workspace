@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="yczy_update" version="3">
+  <DEPS>
+    <ID name="yczy_update" mc="DiagramSet" uid="d345b9b0-9e59-48a6-b351-71cf29b9954e"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="yczy_update" mc="DiagramSet" uid="d345b9b0-9e59-48a6-b351-71cf29b9954e"/>
+    <PID name="yczy_update" mc="Project" uid="e6cb68db-ce0d-4fd8-9354-999348a13c7a"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[yczy_update]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>
