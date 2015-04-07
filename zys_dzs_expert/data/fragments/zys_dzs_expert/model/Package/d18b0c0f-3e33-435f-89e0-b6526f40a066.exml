@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="experts" version="3">
+  <DEPS>
+    <ID name="experts" mc="Package" uid="d18b0c0f-3e33-435f-89e0-b6526f40a066"/>
+    <COMPID name="experts biz Use Cases" mc="UseCaseDiagram" uid="2e717fdf-532a-4ae7-84a8-10423859cd22"/>
+    <COMPID name="overview diagram" mc="ClassDiagram" uid="7f73f03e-742a-4f90-a8d3-c59fcec53f00"/>
+    <COMPID name="主管单位" mc="Actor" uid="ef069cf1-d53d-4e0a-b47d-fe0f4e3b1398"/>
+    <COMPID name="审批专家推荐" mc="UseCase" uid="974ae2ab-cc37-4f02-b1be-7893f9eb0385"/>
+    <COMPID name="推荐专家" mc="UseCase" uid="69f3875d-35d3-4d2f-885c-f11f916ba2b3"/>
+    <COMPID name="浏览专家信息" mc="UseCase" uid="ea2e439d-0092-4bb6-8a46-2b4eab9180e3"/>
+    <COMPID name="管理专家单位" mc="UseCase" uid="396a28f8-5370-441e-8aa3-f40f2a8ac247"/>
+    <COMPID name="管理主管单位" mc="UseCase" uid="a9371128-9f97-49eb-9c5e-8d117b14a199"/>
+    <COMPID name="管理员" mc="Actor" uid="fc9fa46c-eb41-4f87-ac89-2e1d4c7bd9cc"/>
+    <COMPID name="维护专业" mc="UseCase" uid="64a3210e-de01-47b5-85bc-1606b55adfab"/>
+    <COMPID name="维护领域" mc="UseCase" uid="b1abdedf-ffb9-481e-a332-24801bddb8d9"/>
+    <COMPID name="访客" mc="Actor" uid="e4971313-2bef-47e0-9a0a-e6110a1bd0dc"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="experts" mc="Package" uid="d18b0c0f-3e33-435f-89e0-b6526f40a066"/>
+    <PID name="zys_dzs_expert" mc="Project" uid="474f31ca-c72b-4c82-80a3-9be355e6dca2"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[experts]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="访客" mc="Actor" uid="e4971313-2bef-47e0-9a0a-e6110a1bd0dc"/>
+        <COMPID name="浏览专家信息" mc="UseCase" uid="ea2e439d-0092-4bb6-8a46-2b4eab9180e3"/>
+        <COMPID name="主管单位" mc="Actor" uid="ef069cf1-d53d-4e0a-b47d-fe0f4e3b1398"/>
+        <COMPID name="管理专家单位" mc="UseCase" uid="396a28f8-5370-441e-8aa3-f40f2a8ac247"/>
+        <COMPID name="推荐专家" mc="UseCase" uid="69f3875d-35d3-4d2f-885c-f11f916ba2b3"/>
+        <COMPID name="管理员" mc="Actor" uid="fc9fa46c-eb41-4f87-ac89-2e1d4c7bd9cc"/>
+        <COMPID name="管理主管单位" mc="UseCase" uid="a9371128-9f97-49eb-9c5e-8d117b14a199"/>
+        <COMPID name="维护专业" mc="UseCase" uid="64a3210e-de01-47b5-85bc-1606b55adfab"/>
+        <COMPID name="维护领域" mc="UseCase" uid="b1abdedf-ffb9-481e-a332-24801bddb8d9"/>
+        <COMPID name="审批专家推荐" mc="UseCase" uid="974ae2ab-cc37-4f02-b1be-7893f9eb0385"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="overview diagram" mc="ClassDiagram" uid="7f73f03e-742a-4f90-a8d3-c59fcec53f00"/>
+        <COMPID name="experts biz Use Cases" mc="UseCaseDiagram" uid="2e717fdf-532a-4ae7-84a8-10423859cd22"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="zys_dzs_expert" version="3">
+  <DEPS>
+    <ID name="zys_dzs_expert" mc="PropertyContainer" uid="f24da5dd-c5c7-4dd3-86f9-707351fd384e"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="zys_dzs_expert" mc="PropertyContainer" uid="f24da5dd-c5c7-4dd3-86f9-707351fd384e"/>
+    <PID name="zys_dzs_expert" mc="AnalystProject" uid="812fc064-b899-41d6-a097-701ce91f2275"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[zys_dzs_expert]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="zys_dzs_expert" version="3">
+  <DEPS>
+    <ID name="zys_dzs_expert" mc="Project" uid="474f31ca-c72b-4c82-80a3-9be355e6dca2"/>
+    <COMPID name="zys_dzs_expert" mc="Package" uid="d18b0c0f-3e33-435f-89e0-b6526f40a066"/>
+    <COMPID name="zys_dzs_expert" mc="DiagramSet" uid="ee1bba36-423f-4c81-9757-141127d16e76"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="zys_dzs_expert" mc="Project" uid="474f31ca-c72b-4c82-80a3-9be355e6dca2"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[zys_dzs_expert]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DiagramRoot">
+        <COMPID name="zys_dzs_expert" mc="DiagramSet" uid="ee1bba36-423f-4c81-9757-141127d16e76"/>
+      </COMP>
+      <COMP relation="Model">
+        <COMPID name="zys_dzs_expert" mc="Package" uid="d18b0c0f-3e33-435f-89e0-b6526f40a066"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
