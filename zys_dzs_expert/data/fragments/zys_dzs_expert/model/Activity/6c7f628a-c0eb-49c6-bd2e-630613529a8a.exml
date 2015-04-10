@@ -1,0 +1,294 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Activity" version="3">
+  <DEPS>
+    <ID name="Activity" mc="Activity" uid="6c7f628a-c0eb-49c6-bd2e-630613529a8a"/>
+    <COMPID name="专家入库 Activity diagram" mc="ActivityDiagram" uid="f21f6bb4-7b63-4db9-a326-1dab11c8b63f"/>
+    <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Activity" mc="Activity" uid="6c7f628a-c0eb-49c6-bd2e-630613529a8a"/>
+    <PID name="experts" mc="Package" uid="d18b0c0f-3e33-435f-89e0-b6526f40a066"/>
+    <ATTRIBUTES>
+      <ATT name="IsSingleExecution">false</ATT>
+      <ATT name="IsReadOnly">false</ATT>
+      <ATT name="IsReentrant">false</ATT>
+      <ATT name="Name"><![CDATA[Activity]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedGroup">
+        <OBJECT>
+          <ID name="主管单位" mc="ActivityPartition" uid="6c60b7fb-c4d5-496e-8939-242eb8bde3bf"/>
+          <PID name="Activity" mc="Activity" uid="6c7f628a-c0eb-49c6-bd2e-630613529a8a"/>
+          <ATTRIBUTES>
+            <ATT name="IsDimension">false</ATT>
+            <ATT name="IsExternal">false</ATT>
+            <ATT name="Name"><![CDATA[主管单位]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="ContainedNode">
+              <OBJECT>
+                <ID name="维护专家信息" mc="OpaqueAction" uid="322371d7-6cde-4d00-b00c-02cb5646563c"/>
+                <PID name="Activity" mc="Activity" uid="6c7f628a-c0eb-49c6-bd2e-630613529a8a"/>
+                <ATTRIBUTES>
+                  <ATT name="Body"></ATT>
+                  <ATT name="IsMultipleInstance">false</ATT>
+                  <ATT name="IsCompensation">false</ATT>
+                  <ATT name="Name"><![CDATA[维护专家信息]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Outgoing">
+                    <OBJECT>
+                      <ID name="ControlFlow" mc="ControlFlow" uid="5a1b42b8-5191-4118-bd93-6553cbf482d1"/>
+                      <PID name="Activity" mc="Activity" uid="6c7f628a-c0eb-49c6-bd2e-630613529a8a"/>
+                      <ATTRIBUTES>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="Weight"><![CDATA[1]]></ATT>
+                        <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="提交进入专家备选库" mc="OpaqueAction" uid="bbb39f89-60a8-4a06-98e4-a2a89adf382f"/>
+                            <PID name="Activity" mc="Activity" uid="6c7f628a-c0eb-49c6-bd2e-630613529a8a"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="提交进入专家备选库" mc="OpaqueAction" uid="bbb39f89-60a8-4a06-98e4-a2a89adf382f"/>
+                <PID name="Activity" mc="Activity" uid="6c7f628a-c0eb-49c6-bd2e-630613529a8a"/>
+                <ATTRIBUTES>
+                  <ATT name="Body"></ATT>
+                  <ATT name="IsMultipleInstance">false</ATT>
+                  <ATT name="IsCompensation">false</ATT>
+                  <ATT name="Name"><![CDATA[提交进入专家备选库]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Outgoing">
+                    <OBJECT>
+                      <ID name="ControlFlow" mc="ControlFlow" uid="1cc91f32-4029-4443-ac4c-2d495a0e301a"/>
+                      <PID name="Activity" mc="Activity" uid="6c7f628a-c0eb-49c6-bd2e-630613529a8a"/>
+                      <ATTRIBUTES>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="Weight"><![CDATA[1]]></ATT>
+                        <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="选定专家" mc="OpaqueAction" uid="79e4dea3-a4f0-4fb4-aec4-979478649924"/>
+                            <PID name="Activity" mc="Activity" uid="6c7f628a-c0eb-49c6-bd2e-630613529a8a"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="管理员" mc="ActivityPartition" uid="94eedc87-3ea9-460b-b559-cf26c2bc8eb4"/>
+          <PID name="Activity" mc="Activity" uid="6c7f628a-c0eb-49c6-bd2e-630613529a8a"/>
+          <ATTRIBUTES>
+            <ATT name="IsDimension">false</ATT>
+            <ATT name="IsExternal">false</ATT>
+            <ATT name="Name"><![CDATA[管理员]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="ContainedNode">
+              <OBJECT>
+                <ID name="选定专家" mc="OpaqueAction" uid="79e4dea3-a4f0-4fb4-aec4-979478649924"/>
+                <PID name="Activity" mc="Activity" uid="6c7f628a-c0eb-49c6-bd2e-630613529a8a"/>
+                <ATTRIBUTES>
+                  <ATT name="Body"></ATT>
+                  <ATT name="IsMultipleInstance">false</ATT>
+                  <ATT name="IsCompensation">false</ATT>
+                  <ATT name="Name"><![CDATA[选定专家]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Outgoing">
+                    <OBJECT>
+                      <ID name="ControlFlow" mc="ControlFlow" uid="48ff197b-06dc-4552-9726-b806e28d373c"/>
+                      <PID name="Activity" mc="Activity" uid="6c7f628a-c0eb-49c6-bd2e-630613529a8a"/>
+                      <ATTRIBUTES>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="Weight"><![CDATA[1]]></ATT>
+                        <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="选定批次" mc="OpaqueAction" uid="4d6d21a2-a1a9-4a7a-b193-734c51c03f46"/>
+                            <PID name="Activity" mc="Activity" uid="6c7f628a-c0eb-49c6-bd2e-630613529a8a"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="选定批次" mc="OpaqueAction" uid="4d6d21a2-a1a9-4a7a-b193-734c51c03f46"/>
+                <PID name="Activity" mc="Activity" uid="6c7f628a-c0eb-49c6-bd2e-630613529a8a"/>
+                <ATTRIBUTES>
+                  <ATT name="Body"></ATT>
+                  <ATT name="IsMultipleInstance">false</ATT>
+                  <ATT name="IsCompensation">false</ATT>
+                  <ATT name="Name"><![CDATA[选定批次]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Outgoing">
+                    <OBJECT>
+                      <ID name="ControlFlow" mc="ControlFlow" uid="ce31933c-198a-4ad3-a774-9a9e2e13675f"/>
+                      <PID name="Activity" mc="Activity" uid="6c7f628a-c0eb-49c6-bd2e-630613529a8a"/>
+                      <ATTRIBUTES>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="Weight"><![CDATA[1]]></ATT>
+                        <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="专家进入专家库" mc="OpaqueAction" uid="66daa034-fb70-469c-99ac-a6898216c1ba"/>
+                            <PID name="Activity" mc="Activity" uid="6c7f628a-c0eb-49c6-bd2e-630613529a8a"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <COMP relation="Descriptor">
+                    <OBJECT>
+                      <ID name="Note" mc="Note" uid="4dfa3700-342a-4e04-8ff9-952395580ea0"/>
+                      <PID name="Activity" mc="Activity" uid="6c7f628a-c0eb-49c6-bd2e-630613529a8a"/>
+                      <ATTRIBUTES>
+                        <ATT name="Content"><![CDATA[<p>这里应该允许管理员就地创建一个批次对象。</p>
+]]></ATT>
+                        <ATT name="MimeType"></ATT>
+                        <ATT name="Name"><![CDATA[Note]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Model">
+                          <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="专家进入专家库" mc="OpaqueAction" uid="66daa034-fb70-469c-99ac-a6898216c1ba"/>
+                <PID name="Activity" mc="Activity" uid="6c7f628a-c0eb-49c6-bd2e-630613529a8a"/>
+                <ATTRIBUTES>
+                  <ATT name="Body"></ATT>
+                  <ATT name="IsMultipleInstance">false</ATT>
+                  <ATT name="IsCompensation">false</ATT>
+                  <ATT name="Name"><![CDATA[专家进入专家库]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Outgoing">
+                    <OBJECT>
+                      <ID name="ControlFlow" mc="ControlFlow" uid="cb1617dd-7502-43fb-909b-2555bf36940a"/>
+                      <PID name="Activity" mc="Activity" uid="6c7f628a-c0eb-49c6-bd2e-630613529a8a"/>
+                      <ATTRIBUTES>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="Weight"><![CDATA[1]]></ATT>
+                        <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Flow Final Node" mc="FlowFinalNode" uid="f54286a1-45c2-4770-a897-266fe054e240"/>
+                            <PID name="Activity" mc="Activity" uid="6c7f628a-c0eb-49c6-bd2e-630613529a8a"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedNode">
+        <OBJECT>
+          <ID name="Initial Node" mc="InitialNode" uid="6cc4b665-d9f7-4c8b-bc7d-f426e000b4b2"/>
+          <PID name="Activity" mc="Activity" uid="6c7f628a-c0eb-49c6-bd2e-630613529a8a"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Initial Node]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Outgoing">
+              <OBJECT>
+                <ID name="ControlFlow" mc="ControlFlow" uid="c94795c0-7328-464f-bdd2-5db80fa22d37"/>
+                <PID name="Activity" mc="Activity" uid="6c7f628a-c0eb-49c6-bd2e-630613529a8a"/>
+                <ATTRIBUTES>
+                  <ATT name="Guard"></ATT>
+                  <ATT name="Weight"><![CDATA[1]]></ATT>
+                  <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Target">
+                    <REFOBJ>
+                      <ID name="维护专家信息" mc="OpaqueAction" uid="322371d7-6cde-4d00-b00c-02cb5646563c"/>
+                      <PID name="Activity" mc="Activity" uid="6c7f628a-c0eb-49c6-bd2e-630613529a8a"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Flow Final Node" mc="FlowFinalNode" uid="f54286a1-45c2-4770-a897-266fe054e240"/>
+          <PID name="Activity" mc="Activity" uid="6c7f628a-c0eb-49c6-bd2e-630613529a8a"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Flow Final Node]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedCollaboration">
+        <OBJECT>
+          <ID name="locals" mc="Collaboration" uid="05e62cfe-a011-4e3e-8963-1980b9cb36f0"/>
+          <PID name="Activity" mc="Activity" uid="6c7f628a-c0eb-49c6-bd2e-630613529a8a"/>
+          <ATTRIBUTES>
+            <ATT name="IsConcurrent">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[locals]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="专家入库 Activity diagram" mc="ActivityDiagram" uid="f21f6bb4-7b63-4db9-a326-1dab11c8b63f"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

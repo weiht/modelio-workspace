@@ -2,6 +2,8 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="管理员" version="3">
   <DEPS>
     <ID name="管理员" mc="Actor" uid="fc9fa46c-eb41-4f87-ac89-2e1d4c7bd9cc"/>
+    <EXTID name="专家入库" mc="UseCase" uid="974ae2ab-cc37-4f02-b1be-7893f9eb0385"/>
+    <EXTID name="管理专家批次" mc="UseCase" uid="c4cce8ea-b4c7-484f-8aff-36dd74a40c7f"/>
     <EXTID name="管理主管单位" mc="UseCase" uid="a9371128-9f97-49eb-9c5e-8d117b14a199"/>
     <EXTID name="维护专业" mc="UseCase" uid="64a3210e-de01-47b5-85bc-1606b55adfab"/>
     <EXTID name="维护领域" mc="UseCase" uid="b1abdedf-ffb9-481e-a332-24801bddb8d9"/>
@@ -209,6 +211,134 @@
             </COMP>
             <COMP relation="Association">
               <COMPID name="" mc="Association" uid="9785291a-1b82-445e-9896-3ac11a9f810b"/>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="AssociationEnd" uid="298d3bf1-3ca3-45c7-91a2-31dac8691623"/>
+          <PID name="管理员" mc="Actor" uid="fc9fa46c-eb41-4f87-ac89-2e1d4c7bd9cc"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsAssociation</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="专家入库" mc="UseCase" uid="974ae2ab-cc37-4f02-b1be-7893f9eb0385"/>
+            </LINK>
+            <COMP relation="Opposite">
+              <OBJECT>
+                <ID name="" mc="AssociationEnd" uid="367ebffc-e87c-4099-83f2-d4c64f918f3c"/>
+                <PID name="管理员" mc="Actor" uid="fc9fa46c-eb41-4f87-ac89-2e1d4c7bd9cc"/>
+                <ATTRIBUTES>
+                  <ATT name="Aggregation">KindIsAssociation</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Opposite">
+                    <COMPID name="" mc="AssociationEnd" uid="298d3bf1-3ca3-45c7-91a2-31dac8691623"/>
+                  </COMP>
+                  <COMP relation="Association">
+                    <OBJECT>
+                      <ID name="" mc="Association" uid="d054013c-7ce1-4756-a8f5-8854cf2eade4"/>
+                      <PID name="管理员" mc="Actor" uid="fc9fa46c-eb41-4f87-ac89-2e1d4c7bd9cc"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Association">
+              <COMPID name="" mc="Association" uid="d054013c-7ce1-4756-a8f5-8854cf2eade4"/>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="AssociationEnd" uid="81c07db9-12fa-4d60-944f-03dd8f9c5a2b"/>
+          <PID name="管理员" mc="Actor" uid="fc9fa46c-eb41-4f87-ac89-2e1d4c7bd9cc"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsAssociation</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="管理专家批次" mc="UseCase" uid="c4cce8ea-b4c7-484f-8aff-36dd74a40c7f"/>
+            </LINK>
+            <COMP relation="Opposite">
+              <OBJECT>
+                <ID name="" mc="AssociationEnd" uid="e7e99d3b-1b83-43f0-83d6-f5c58c220ffd"/>
+                <PID name="管理员" mc="Actor" uid="fc9fa46c-eb41-4f87-ac89-2e1d4c7bd9cc"/>
+                <ATTRIBUTES>
+                  <ATT name="Aggregation">KindIsAssociation</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Opposite">
+                    <COMPID name="" mc="AssociationEnd" uid="81c07db9-12fa-4d60-944f-03dd8f9c5a2b"/>
+                  </COMP>
+                  <COMP relation="Association">
+                    <OBJECT>
+                      <ID name="" mc="Association" uid="e6842503-29d1-4fe1-91f6-517ddf2ddf99"/>
+                      <PID name="管理员" mc="Actor" uid="fc9fa46c-eb41-4f87-ac89-2e1d4c7bd9cc"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Association">
+              <COMPID name="" mc="Association" uid="e6842503-29d1-4fe1-91f6-517ddf2ddf99"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>

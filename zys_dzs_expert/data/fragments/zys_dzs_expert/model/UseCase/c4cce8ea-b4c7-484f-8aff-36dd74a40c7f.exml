@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="浏览专家信息" version="3">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="管理专家批次" version="3">
   <DEPS>
-    <ID name="浏览专家信息" mc="UseCase" uid="ea2e439d-0092-4bb6-8a46-2b4eab9180e3"/>
+    <ID name="管理专家批次" mc="UseCase" uid="c4cce8ea-b4c7-484f-8aff-36dd74a40c7f"/>
     <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
     <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
     <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
@@ -10,7 +10,7 @@
     <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
   </DEPS>
   <OBJECT>
-    <ID name="浏览专家信息" mc="UseCase" uid="ea2e439d-0092-4bb6-8a46-2b4eab9180e3"/>
+    <ID name="管理专家批次" mc="UseCase" uid="c4cce8ea-b4c7-484f-8aff-36dd74a40c7f"/>
     <PID name="experts" mc="Package" uid="d18b0c0f-3e33-435f-89e0-b6526f40a066"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -18,14 +18,14 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[浏览专家信息]]></ATT>
+      <ATT name="Name"><![CDATA[管理专家批次]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="Descriptor">
         <OBJECT>
-          <ID name="" mc="Note" uid="c3c7aa18-386f-4f5e-ab21-8ee43f3d34fb"/>
-          <PID name="浏览专家信息" mc="UseCase" uid="ea2e439d-0092-4bb6-8a46-2b4eab9180e3"/>
+          <ID name="" mc="Note" uid="2f561096-53f6-4565-a8e5-9f2de8f0ad17"/>
+          <PID name="管理专家批次" mc="UseCase" uid="c4cce8ea-b4c7-484f-8aff-36dd74a40c7f"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"></ATT>
@@ -39,8 +39,8 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Note" uid="4facd985-262f-456b-923b-bce9a3bbcc7b"/>
-          <PID name="浏览专家信息" mc="UseCase" uid="ea2e439d-0092-4bb6-8a46-2b4eab9180e3"/>
+          <ID name="" mc="Note" uid="5a191741-89df-4f5d-814d-ad4df489de2a"/>
+          <PID name="管理专家批次" mc="UseCase" uid="c4cce8ea-b4c7-484f-8aff-36dd74a40c7f"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"></ATT>
@@ -54,8 +54,8 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Note" uid="b0cda41b-ffea-43ac-a422-644a638d1e52"/>
-          <PID name="浏览专家信息" mc="UseCase" uid="ea2e439d-0092-4bb6-8a46-2b4eab9180e3"/>
+          <ID name="" mc="Note" uid="08a4c573-e207-4c4a-83d9-7716d4f22c3d"/>
+          <PID name="管理专家批次" mc="UseCase" uid="c4cce8ea-b4c7-484f-8aff-36dd74a40c7f"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"></ATT>
@@ -69,8 +69,8 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Note" uid="33ed6834-3f66-429b-a15a-0bbaf0d3cbb4"/>
-          <PID name="浏览专家信息" mc="UseCase" uid="ea2e439d-0092-4bb6-8a46-2b4eab9180e3"/>
+          <ID name="" mc="Note" uid="1b32dc40-3841-4aa6-90ba-1041bba214d8"/>
+          <PID name="管理专家批次" mc="UseCase" uid="c4cce8ea-b4c7-484f-8aff-36dd74a40c7f"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"></ATT>
@@ -84,8 +84,8 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Note" uid="0f89d300-9228-4a65-b9ca-d750986f8c39"/>
-          <PID name="浏览专家信息" mc="UseCase" uid="ea2e439d-0092-4bb6-8a46-2b4eab9180e3"/>
+          <ID name="" mc="Note" uid="f6fcccfa-9c2f-49dd-8547-6bad02b4fd63"/>
+          <PID name="管理专家批次" mc="UseCase" uid="c4cce8ea-b4c7-484f-8aff-36dd74a40c7f"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"></ATT>
@@ -99,8 +99,8 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Note" uid="6d6600b0-8ac4-442b-8e8b-3a38f8111297"/>
-          <PID name="浏览专家信息" mc="UseCase" uid="ea2e439d-0092-4bb6-8a46-2b4eab9180e3"/>
+          <ID name="" mc="Note" uid="130e089e-4c49-4fe8-9671-9f5aa27578cd"/>
+          <PID name="管理专家批次" mc="UseCase" uid="c4cce8ea-b4c7-484f-8aff-36dd74a40c7f"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"></ATT>
@@ -110,22 +110,6 @@
           <DEPENDENCIES>
             <LINK relation="Model">
               <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="Note" mc="Note" uid="113489bd-c612-4559-9a86-62255eb51766"/>
-          <PID name="浏览专家信息" mc="UseCase" uid="ea2e439d-0092-4bb6-8a46-2b4eab9180e3"/>
-          <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[<p>专家信息分批次浏览。</p>
-]]></ATT>
-            <ATT name="MimeType"></ATT>
-            <ATT name="Name"><![CDATA[Note]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Model">
-              <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
